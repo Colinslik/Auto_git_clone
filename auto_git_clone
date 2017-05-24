@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set tiomeout 30
+cd /home/colin/git_home/TEST
+
+expect -c 'spawn git clone <git_path>; expect assword; send "<passwd>\n"; interact'
